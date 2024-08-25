@@ -13,27 +13,27 @@ class Futbolista(Persona, Deportista):
         Futbolista.lista_futbolistas.append(self)
 
     # Métodos get
-    def get_goles_marcados(self):
+    def getGolesMarcados(self):
         return self.__goles_marcados
 
-    def get_tarjetas_rojas(self):
+    def getTarjetasRojas(self):
         return self.__tarjetas_rojas
 
-    def get_pierna_habil(self):
+    def getPiernaHabil(self):
         return self.__pierna_habil
 
     # Métodos set
-    def set_goles_marcados(self, goles_marcados):
+    def setGolesMarcados(self, goles_marcados):
         self.__goles_marcados = goles_marcados
 
-    def set_tarjetas_rojas(self, tarjetas_rojas):
+    def setTarjetasRojas(self, tarjetas_rojas):
         self.__tarjetas_rojas = tarjetas_rojas
 
-    def set_pierna_habil(self, pierna_habil):
+    def setPiernaHabil(self, pierna_habil):
         self.__pierna_habil = pierna_habil
 
     # Método str
     def __str__(self):
-        return (f"Mi nombre es {self.get_nombre()}, soy profesional en el deporte {self.get_deporte()}. "
-                f"Tengo {self.get_edad()} años de edad y llevo {self.get_años_practicando()} años en el deporte.")
+        return (f"Mi nombre es {self.getNombre()} soy profesional en el deporte {self.getDeporte()} "
+                f"Tengo {self.getEdad()} años de edad y llevo {self.getAñosPracticando()} años en el deporte")
 

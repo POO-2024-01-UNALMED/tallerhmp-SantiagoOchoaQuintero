@@ -6,29 +6,29 @@ class Persona:
         self.__sexo = sexo
 
     # Métodos get
-    def get_nombre(self):
+    def getNombre(self):
         return self.__nombre
 
-    def get_edad(self):
+    def getEdad(self):
         return self.__edad
 
-    def get_altura(self):
+    def getAltura(self):
         return self.__altura
 
-    def get_sexo(self):
+    def getSexo(self):
         return self.__sexo
 
     # Métodos set
-    def set_nombre(self, nombre):
+    def setNombre(self, nombre):
         self.__nombre = nombre
 
-    def set_edad(self, edad):
+    def setEdad(self, edad):
         self.__edad = edad
 
-    def set_altura(self, altura):
+    def setAltura(self, altura):
         self.__altura = altura
 
-    def set_sexo(self, sexo):
+    def setSexo(self, sexo):
         self.__sexo = sexo
 
 
